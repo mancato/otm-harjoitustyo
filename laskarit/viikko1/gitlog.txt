@@ -1,0 +1,124 @@
+commit 175c7ebca46324b32b6745d16b7df7bfe4f1f689
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:20:50 2018 +0200
+
+    file1 unohtui
+
+ tiedostoja/file1 | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 2c46255be5ee24a40f03badd64e80fc37bce6544
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:20:02 2018 +0200
+
+    muutoksia fileihin
+
+ tiedostoja/file2  | 0
+ tiedostoja/file22 | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 5ff7c7fd3e4ef2c43f56e460d6464e1b8e37cfa5
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:15:22 2018 +0200
+
+    filejä
+
+ tiedostoja/file1 | 1 +
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 1 insertion(+)
+
+commit aeefce3900362b11d026ed2a33f624cda28fb0d5
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:06:19 2018 +0200
+
+    jaahas
+
+ eka.txt    | 4 ++--
+ kolmas.txt | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit dac785bada72e5bda7ce20ca21b211feda81ae93
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:04:26 2018 +0200
+
+    rename
+
+ eka.txt      | 3 +++
+ tiedosto.txt | 3 ---
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit d3738b4e4c8e9ff29bd88427e019273621d95252
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 13:02:09 2018 +0200
+
+    ???
+
+ toinen.txt | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 4c401d3eabce0b08b0cc18b6deb71c2c6894d989
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:45:15 2018 +0200
+
+    modifioitu
+
+ tiedosto.txt | 4 +---
+ 1 file changed, 1 insertion(+), 3 deletions(-)
+
+commit 77282f5527b86283aa1f34eb19e42cffcd589100
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:44:02 2018 +0200
+
+    paljon tekstiä
+
+ tiedosto.txt | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 336f07eda31cacf46d1b03e348b2302742f36782
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:41:38 2018 +0200
+
+    stuff
+
+ stuff/teksti.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 7bf47455809e40fa8869a453001f8807a113ec85
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:37:27 2018 +0200
+
+    2. ja 3. modifioitu
+
+ kolmas.txt | 1 +
+ toinen.txt | 1 +
+ 2 files changed, 2 insertions(+)
+
+commit 6b52e29bda6ce4a15f27cae24a24190a49f2cc0d
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:35:44 2018 +0200
+
+    hmm
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit b0fbde33ee22c4ce5d0b153d0cf591705666b4d4
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:32:13 2018 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit 32ca41a6b374b02b2e8f19128dbdd07a6e1eaba8
+Author: Vertti <v.tarvus@gmail.com>
+Date:   Sat Mar 17 12:28:40 2018 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
