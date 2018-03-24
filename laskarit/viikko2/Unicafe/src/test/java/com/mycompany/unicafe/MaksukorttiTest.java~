@@ -20,7 +20,7 @@ public class MaksukorttiTest {
 
     @Test
     public void saldoAlussaOikein() {
-        assertEquals("saldo: 0.10", kortti.toString());
+        assertEquals("saldo: 10.0", kortti.toString());
     }
 
     @Test
