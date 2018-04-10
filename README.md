@@ -1,7 +1,9 @@
 # Tekstieditori
 ## Dokumentaatio
 [Vaativuusmäärittely](https://github.com/mancato/otm-harjoitustyo/blob/master/TextEditor/dokumentaatio/vaativuusmaarittely.md)
+
 [Tuntikirjanpito](https://github.com/mancato/otm-harjoitustyo/blob/master/TextEditor/dokumentaatio/tuntikirjanpito.md)
+
 ## Maven
 Projektin compilaaminen:
 ```
