@@ -7,7 +7,7 @@ HUOMIO! Projekti vaihtui kesken kaiken tekstieditorista asteroidsiin sillä teks
 
 [Tuntikirjanpito](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
-[Arkkitehtuurikuvaus](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/arkkitehuuri.md)
+[Arkkitehtuurikuvaus](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
 ## Maven
 Projektin compilaaminen:
