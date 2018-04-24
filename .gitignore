@@ -1,4 +1,5 @@
 *~
 .git
-/target/
-/nbproject/
+target/
+nbproject/
+nbactions.xml
