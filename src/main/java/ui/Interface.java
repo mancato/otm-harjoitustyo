@@ -31,12 +31,12 @@ public class Interface{
         //DRAW SCORE
         score = new Text(20,30,String.valueOf(0)); //GAME SCORE AS TEXT
         score.setFill(Color.WHITE);
-        score.setFont(Font.font("Tlwg Typo", 30.0));
+        //score.setFont(Font.font("Tlwg Typo", 30.0));
         pane.getChildren().add(score);       
         //DRAW NUMBER OF LIVES
         lives = new Text(45.0,65.0,"x");
         lives.setFill(Color.WHITE);
-        lives.setFont(Font.font("Tlwg Typo", 20.0));
+        //lives.setFont(Font.font("Tlwg Typo", 20.0));
         pane.getChildren().add(lives);
         //DRAW LIVES SYMBOL
         Polygon lifeSymbol = new Polygon();
@@ -103,9 +103,9 @@ public class Interface{
     }
 
     void gameOver(){ //TRIGGER GAME OVER MESSAGE
-        Text gm = new Text(180.0,240.0,"GAME OVER");
+        Text gm = new Text(270.0,240.0,"GAME OVER"); //x = 180.0
         gm.setFill(Color.WHITE);
-        gm.setFont(Font.font("Tlwg Typo", 50.0));
+        //gm.setFont(Font.font("Tlwg Typo", 50.0));
         this.pane.getChildren().add(gm);        
     }
 }
