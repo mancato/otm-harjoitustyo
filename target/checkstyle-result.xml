@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/logic/Ammo.java">
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/logic/AsteroidField.java">
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/logic/Asteroid.java">
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/logic/Ship.java">
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/logic/PolygonObject.java">
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/ui/Main.java">
+<error line="21" column="5" severity="error" message="Method length is 114 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+<error line="35" column="13" severity="error" message="Method length is 101 lines (max allowed is 20)." source="com.puppycrawl.tools.checkstyle.checks.sizes.MethodLengthCheck"/>
+</file>
+<file name="/home/tarvus/otm-harjoitustyo/Asteroids/src/main/java/ui/Interface.java">
+</file>
+</checkstyle>
