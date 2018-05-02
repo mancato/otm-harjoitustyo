@@ -32,3 +32,7 @@ Checkstyle:
 ```
 mvn jxr:jxr checkstyle:checkstyle
 ```
+JavaDoc:
+```
+mvn javadoc:javadoc
+```
