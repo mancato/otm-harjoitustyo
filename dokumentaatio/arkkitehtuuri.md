@@ -2,7 +2,9 @@
 
 ## Rakenne
 Ohjelman pakkausrakenne on seuraavanlainen:
+
 <https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/pakkauskaavio.png>
+
 Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. main kommunikoi graafisen käyttöliittymän, tiedon tallenuksen/lataamisen ja pelin olioiden kanssa. Pakkaus io sisältää tiedon tallennuksen ja lataamisen. Logic sisältää kaikki pelissä tarvittavat oliot.
 Kuvassa luokkakaavio ohjelman rakenteesta (ei sisällä graafista käyttöliittymää):
 
