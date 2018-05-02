@@ -5,8 +5,8 @@ Päävalikosta pystyy käynnistämään pelin painamalla P-näppäintä. Pelin o
 
 ## Pelinäkymä
 
-### Pelin tavoite
-Pelin tavoitteena on väistellä aluksella asteroideja ja tuhota niitä aluksen tykin avulla. Kun asteroidia ampuu, saa pelaaja pisteitä ja asteroidi hajoaa kahdeksi pienemmäksi asteroidiksi. Kun asteroidit ovat tarpeeksi pieniä, ne häviävät kokonaan. Pelaajalla on rajallinen määrä elämiä, joita menettää kun alus törmää asteroidiin.
+### Pelin kulku
+Pelin tavoitteena on väistellä aluksella asteroideja ja tuhota niitä aluksen tykin avulla. Kun asteroidia ampuu, saa pelaaja pisteitä ja asteroidi hajoaa kahdeksi pienemmäksi asteroidiksi. Kun asteroidit ovat tarpeeksi pieniä, ne häviävät kokonaan. Kun kaikki asteroidit on tuhottu, ilmestyy peliin lisää asteroideja. Pelaajalla on rajallinen määrä elämiä, joita menettää kun alus törmää asteroidiin.
 
 ### Aluksen kontrollit
 Alusta liikutetaan nuolinäppäimillä. Ylös-napista aluksen moottori aktivoituu, sivulle-napeista alusta pystyy kääntämään. Aluksen tykkiä käytetään välilyöntiä painamalla.
