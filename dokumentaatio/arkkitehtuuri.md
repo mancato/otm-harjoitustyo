@@ -13,7 +13,7 @@ Alla olevassa kuvassa näkyy luokkakaavio ohjelman rakenteesta (ei sisällä gra
 
 ## Käyttöliittymä
 
-Ohjelmassa on kaksi päänäkymää, päävalikko sekä itse peli. Valikosta pystyy käynnistämään pelin ja pääsee tarkastelemaan pelin ohjetta ja aiempia pistemääriä. Pelinäkymässä näkyy pelin päätyttyä "Game Over"-ruutu, johon pelaaja voi asettaa kolmikirjaimisen "nimen".
+Ohjelmassa on kaksi päänäkymää, päävalikko sekä itse peli. Valikosta pystyy käynnistämään pelin ja pääsee tarkastelemaan pelin ohjetta ja aiempia pistemääriä. Pelinäkymässä näkyy myös pelin päätyttyä "Game Over"-ruutu, johon pelaaja voi asettaa kolmikirjaimisen "nimen".
 
 ## Sovelluslogiikka
 
