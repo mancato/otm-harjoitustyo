@@ -1,8 +1,9 @@
-
+/**
+ * Pelaajan alus
+ */
 package logic;
 
 import java.util.ArrayList;
-import javafx.scene.shape.Polygon;
 import javafx.scene.paint.Color;
 
 public class Ship extends PolygonObject {
@@ -28,10 +29,18 @@ public class Ship extends PolygonObject {
         this.turretTemp = 0;
         this.ammos = new ArrayList<Ammo>();
     }
+/**
+ * Aluksen "liikeyhtälö", laskee aluksen nopeuden ottaen huomioon työntövoiman ja "kitkan".
+ * @param thrust Aluksen työntövoima
+ */
     public void accelerate(double thrust) { //ACCELERATING THE SHIP
         vX += thrust * Math.cos(Math.toRadians(this.getRotate())) - vX * 0.007;
         vY += thrust * Math.sin(Math.toRadians(this.getRotate())) - vY * 0.007;
     }
+/**
+ * Kiertää alusta.
+ * @param angle Kulma jonka verran alusta kierretään.
+ */
     public void rotate(double angle) { //ROTATING THE SHIP
         double a = this.getRotate() + angle;
         if (a > 360.0) {
@@ -42,6 +51,9 @@ public class Ship extends PolygonObject {
             this.setRotate(a);
         }
     }
+/**
+ * Alustaa aluksen peliin.
+ */
     public void spawn() { //SPAWNING A NEW SHIP
         this.vX = 0.0;
         this.vY = 0.0;
@@ -49,6 +61,9 @@ public class Ship extends PolygonObject {
         this.setTranslateY(240.0);
         this.spawnCounter = -1;
     }
+/**
+ * Aluksella ampuminen ja aluksen aseen "jäähtyminen" ampumisen välissä.
+ */
     public void shoot() { //SHOOT AKA. ADD NEW AMMO TO PLAY
         if (this.turretTemp == 0) {
             this.turretTemp = 8;

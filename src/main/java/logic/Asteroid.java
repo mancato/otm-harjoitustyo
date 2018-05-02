@@ -1,7 +1,10 @@
-
+/**
+ * Asteroidi, näitä ammutaan
+ *  
+ * 
+ */
 package logic;
 
-import javafx.scene.shape.Polygon;
 import javafx.scene.paint.Color;
 import java.util.Random;
 
@@ -21,6 +24,11 @@ public class Asteroid extends PolygonObject {
         this.vY = Math.pow(size, -0.7) * (2.0 * rnd.nextDouble() - 1.0);
         this.getPoints().addAll(initialize(n)); //SET ASTEROID FORM       
     }
+    /**
+ *  Luo asteroidin muodon
+ *  @param n asteroidin muodon virittävien pisteiden lukumäärä
+ * 
+ */
     Double[] initialize(int n) { //GENERATE RANDOM SURFACE FOR ASTEROID, n=AMOUNT OF VERTICES
         double rMin = size * 30.0;
         double rMax = size * (rMin + 25.0);

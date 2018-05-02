@@ -1,4 +1,6 @@
-
+/**
+ * Ammus jonka alus voi ampua
+ */
 package logic;
 
 import javafx.scene.shape.Circle;
@@ -20,10 +22,18 @@ public class Ammo extends Circle {
         this.setCenterY(y0);
         this.setRadius(2);  
     }
+/**
+ * Siirtää ammusta dx:n ja dy:n verran.
+ * @param   dx Paikan muutoksen x-komponentti
+ * @param   dy Paikan muutoksen y-komponentti  
+ */
     public void translate(double dx, double dy) { //MOVE BY AMOUNT DX,DY
         this.setCenterX(this.getCenterX() + dx);
         this.setCenterY(this.getCenterY() + dy);       
     }
+/**
+ * Varmistaa, että jos ammus menee ruudun ulkopuolelle niin se tulee toiselta puolelta takaisin.
+ */
     public void checkBounds() { //SCREEN WRAPPING FEATURE
         if (this.getCenterX() > 640.0) {
             translate(-640.0, 0.0);

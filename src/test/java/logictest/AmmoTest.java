@@ -6,10 +6,7 @@
 package logictest;
 
 import logic.Ammo;
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -32,17 +29,38 @@ public class AmmoTest {
         assertEquals(ammo.getCenterY(),10.0,0.001);
     }
     @Test
-    public void testBounds(){
+    public void testBoundsX(){
         ammo.translate(10.0,10.0);
         ammo.checkBounds();
         assertEquals(ammo.getCenterX(),10.0,0.001);
         assertEquals(ammo.getCenterY(),10.0,0.001);        
     }
     @Test
-    public void testBounds2(){
+    public void testBoundsX2(){
         ammo.translate(641.0,1.0);
         ammo.checkBounds();
         assertEquals(ammo.getCenterX(),1.0,0.001);
         assertEquals(ammo.getCenterY(),1.0,0.001);        
     }
+    @Test
+    public void testBoundsX3(){
+        ammo.translate(-1.0,1.0);
+        ammo.checkBounds();
+        assertEquals(ammo.getCenterX(),639.0,0.001);
+        assertEquals(ammo.getCenterY(),1.0,0.001);        
+    }
+    @Test
+    public void testBoundsY1(){
+        ammo.translate(1.0,481.0);
+        ammo.checkBounds();
+        assertEquals(ammo.getCenterX(),1.0,0.001);
+        assertEquals(ammo.getCenterY(),1.0,0.001);        
+    }
+    @Test
+    public void testBoundsY2(){
+        ammo.translate(1.0,-1.0);
+        ammo.checkBounds();
+        assertEquals(ammo.getCenterX(),1.0,0.001);
+        assertEquals(ammo.getCenterY(),479.0,0.001);        
+    }    
 }
