@@ -10,8 +10,11 @@ Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main ko
 Alla olevassa kuvassa näkyy luokkakaavio ohjelman rakenteesta (ei sisällä graafista käyttöliittymää):
 
 <img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/2fd135f8.png" width="400">
+
 ## Käyttöliittymä
+
 Ohjelmassa on kaksi päänäkymää, päävalikko sekä itse peli. Valikosta pystyy käynnistämään pelin ja pääsee tarkastelemaan pelin ohjetta ja aiempia pistemääriä. Pelinäkymässä näkyy pelin päätyttyä "Game Over"-ruutu, johon pelaaja voi asettaa kolmikirjaimisen "nimen".
+
 ## Sovelluslogiikka
 
 Kuvassa näkyy kuinka aluksella ampuminen tapahtuu kun välilyöntiä painetaan:
