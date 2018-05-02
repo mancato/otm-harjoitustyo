@@ -20,7 +20,7 @@ Ei rooleja
 - Nappi josta saa esille pelin ohjeet
 - Lista jossa näkyvät suurimmat pistemäärät kautta aikojen
 ### Tietojen tallennus
-- ~Tietokanta~ Tiedosto johon pelaaja voi tallentaa nimensä ja saamansa pisteet + päivämäärän(?)
+- ~Tietokanta~ Tiedosto johon tallentuvat pelaajien "nimet" ja pisteet sekä päivämäärä
 - Vanhoja tuloksia voi katsella pelisovelluksen kautta 
 ## Jatkokehitysideoita
 - UFO joka yrittää ampua pelaajan
