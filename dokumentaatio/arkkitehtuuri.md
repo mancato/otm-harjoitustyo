@@ -24,4 +24,7 @@ Kuvassa näkyy kuinka aluksella ampuminen tapahtuu kun välilyöntiä painetaan:
 
 ## Tietojen tallennus
 
-Sovellus tallentaa pelin huipputulokset erilliseen tekstitiedostoon. Tiedostosta myös ladataan tulokset sovellukseen tarkastelua varten.
+Sovellus tallentaa pelin huipputulokset erilliseen tekstitiedostoon. Tiedostosta myös ladataan tulokset sovellukseen tarkastelua varten. Tiedostoon tallennetaan tulokset muodossa: 
+```
+PÄIVÄMÄÄRÄ (dd/mm/yyyy)    PELAAJAN NIMI (kolme kirjainta)    PISTEMÄÄRÄ    
+```
