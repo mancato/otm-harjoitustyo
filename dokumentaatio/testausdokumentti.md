@@ -10,4 +10,8 @@ ammusten [AmmoTest](https://github.com/mancato/otm-harjoitustyo/blob/master/src/
 
 io-pakkaus: Controls-metodia ei ole testattu, sillä se vaatii näppäimien painamista, ja sen toiminta on melko itsestään selvää. Tiedon tallentamiseen tarkoitettua FileHandler-luokkaa on testattu, testit kokeilevat tiedostoon kirjoittamista, korkeimman tuloksen lukemista ja kaikkien tulosten lataamista tiedostosta. FileHandlerin testauksesta vastaa [FileHandlerTest](https://github.com/mancato/otm-harjoitustyo/blob/master/src/test/java/iotest/FileHandlerTest.java).
 
+## Jacoco
+Kuvassa näkyy jacocon raportoima testikattavuus:
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Jacoco.png" width="800">
+
 
