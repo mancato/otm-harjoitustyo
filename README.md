@@ -1,7 +1,7 @@
 # Asteroids
 Asteroids, klassikopeli vuodelta 1979. Tavoitteena on ampua asteroideja avaruusaluksella.
 
-Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo/releases/tag/v0.2)
+Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo/releases/tag/1.0)
 
 ## Dokumentaatio
 
