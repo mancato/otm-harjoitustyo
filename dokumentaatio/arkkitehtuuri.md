@@ -6,7 +6,7 @@ Ohjelman pakkausrakenne on seuraavanlainen:
 <img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/pakkauskaavio.png" width="300">
 
 Pakkaus io on tarkoitettu tiedon tallentamiseen/lataukseen ja näppäinten lukemiseen käyttäjältä. Pakkaus logic sisältää kaikki pelin oliot.
-Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main kommunikoi ui-pakkauksesta löytyvien näkymien, io-pakkauksesta löytyvien tiedon tallennuksen/lataamisen, pelin näppäinkarttojen ja logic-pakkauksesta löytyvien pelin olioiden kanssa.
+Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main kommunikoi ui-pakkauksesta löytyvien näkymien, io-pakkauksesta löytyvien tiedon tallennuksen/lataamisen, pelin näppäinkarttojen ja logic-pakkauksesta löytyvien pelin olioiden kanssa. ui-luokasta löytyvät näkymät edustavat pelin eri ruutuja, kuten päävalikkoa ja pelinäkymää.
 
 Alla olevassa kuvassa näkyy luokkakaavio ohjelman rakenteesta (ei sisällä graafista käyttöliittymää):
 
