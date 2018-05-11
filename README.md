@@ -4,11 +4,16 @@ Asteroids, klassikopeli vuodelta 1979. Tavoitteena on ampua asteroideja avaruusa
 Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo/releases/tag/v0.2)
 
 ## Dokumentaatio
+
+[Käyttöohje](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kayttoohje.md)
+
 [Vaativuusmäärittely](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/vaativuusmaarittely.md)
 
 [Tuntikirjanpito](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/tuntikirjanpito.md)
 
 [Arkkitehtuurikuvaus](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
+
+[Testausdokumentti](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/testaus.md)
 
 ## Maven
 Projektin compilaaminen:
