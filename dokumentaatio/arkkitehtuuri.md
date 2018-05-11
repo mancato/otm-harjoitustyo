@@ -26,5 +26,5 @@ Kuvassa näkyy kuinka aluksella ampuminen tapahtuu kun välilyöntiä painetaan:
 
 Sovellus tallentaa pelin huipputulokset erilliseen tekstitiedostoon. Tiedostosta myös ladataan tulokset sovellukseen tarkastelua varten. Tiedostoon tallennetaan tulokset muodossa: 
 ```
-PÄIVÄMÄÄRÄ(dd/mm/yyyy)    PELAAJAN NIMI(kolme kirjainta)    PISTEMÄÄRÄ    
+PÄIVÄMÄÄRÄ(dd/mm/yyyy)    PELAAJAN NIMI(kolme merkkiä)    PISTEMÄÄRÄ    
 ```
