@@ -10,7 +10,7 @@ Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main ko
 
 Alla olevassa kuvassa näkyy luokkakaavio ohjelman rakenteesta (ei sisällä graafista käyttöliittymää):
 
-<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/465b64f7.png" width="600">
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/3c629a11.png" width="600">
 
 ## Käyttöliittymä
 
