@@ -13,7 +13,7 @@ Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo
 
 [Arkkitehtuurikuvaus](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/arkkitehtuuri.md)
 
-[Testausdokumentti](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/testaus.md)
+[Testausdokumentti](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/testausdokumentti.md)
 
 ## Maven
 Projektin compilaaminen:
