@@ -5,11 +5,12 @@ Ohjelman pakkausrakenne on seuraavanlainen:
 
 <img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/pakkauskaavio.png" width="300">
 
-Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main kommunikoi graafisen käyttöliittymän, tiedon tallennuksen/lataamisen ja pelin olioiden kanssa. Pakkaus io sisältää tiedon tallennuksen ja lataamisen. Logic sisältää kaikki pelissä tarvittavat oliot.
+Pakkaus io on tarkoitettu tiedon tallentamiseen/lataukseen ja näppäinten lukemiseen käyttäjältä. Pakkaus logic sisältää kaikki pelin oliot.
+Pakkauksessa ui sijaitsee main-luokka, joka sisältää ohjelman rungon. Main kommunikoi ui-pakkauksesta löytyvien näkymien, io-pakkauksesta löytyvien tiedon tallennuksen/lataamisen, pelin näppäinkarttojen ja logic-pakkauksesta löytyvien pelin olioiden kanssa. ui-luokasta löytyvät näkymät edustavat pelin eri ruutuja, kuten päävalikkoa ja pelinäkymää.
 
 Alla olevassa kuvassa näkyy luokkakaavio ohjelman rakenteesta (ei sisällä graafista käyttöliittymää):
 
-<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/465b64f7.png" width="600">
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/3c629a11.png" width="600">
 
 ## Käyttöliittymä
 
@@ -17,6 +18,22 @@ Ohjelmassa on kaksi päänäkymää, päävalikko sekä itse peli. Valikosta pys
 
 ## Sovelluslogiikka
 
-Kuvassa näkyy kuinka aluksella ampuminen tapahtuu kun välilyöntiä painetaan:
+Tässä on sekvenssikaaviot aluksen oleellisimmista toiminnoista. Aluksella kiihdyttäminen:
+
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20kiihdyttäminen.png" width="600">
+
+Aluksella kääntyminen:
+
+
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20kääntyminen.png" width="600">
+
+Aluksella ampuminen: 
 
 <img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20ampuminen.png" width="600">
+
+## Tietojen tallennus
+
+Sovellus tallentaa pelin huipputulokset erilliseen tekstitiedostoon. Tiedostosta myös ladataan tulokset sovellukseen tarkastelua varten. Tiedostoon tallennetaan tulokset muodossa: 
+```
+PÄIVÄMÄÄRÄ(dd/mm/yyyy)    PELAAJAN NIMI(kolme merkkiä)    PISTEMÄÄRÄ    
+```

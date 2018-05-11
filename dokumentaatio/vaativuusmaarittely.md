@@ -4,8 +4,7 @@
 
 Yksinkertainen peli, tarkoituksena on asettaa kaikkien aikojen HIGH SCORE muiden nähtäväksi.
 ## Käyttäjät
-
-Ei rooleja
+Ainoa rooli on pelaajalla.
 
 ## Perusversion tarjoama toiminnallisuus
 
@@ -20,7 +19,7 @@ Ei rooleja
 - Nappi josta saa esille pelin ohjeet
 - Lista jossa näkyvät suurimmat pistemäärät kautta aikojen
 ### Tietojen tallennus
-- ~Tietokanta~ Tiedosto johon tallentuvat pelaajien "nimet", tulokset ja tulosten päivämäärät
+- Tiedosto johon tallentuvat pelaajien "nimet", tulokset ja tulosten päivämäärät
 - Vanhoja tuloksia voi katsella pelisovelluksen kautta 
 ## Jatkokehitysideoita
 - UFO joka yrittää ampua pelaajan

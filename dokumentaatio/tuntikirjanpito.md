@@ -11,4 +11,7 @@
 | 28.4. | 1    | Reset-ominaisuus
 | 1.5.  | 5    | Päävalikko, näkymien välillä liikkuminen, pelin ohjeet
 | 2.5.  | 8    | Pistemäärien tallennus ja lataus, sekavaa empimistä
-| YHT.  | 37   | - |
+| 9.5.  | 3    | Refaktorointia
+| 10.5. | 5    | Refaktorointia
+| 11.5. | 4    | Lopullinen testaus, dokumentaation teko
+| YHT.  | 49   | - |

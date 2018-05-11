@@ -1,4 +1,9 @@
 # Käyttöohje
+Lataa tiedosto [Asteroids.jar](https://github.com/mancato/otm-harjoitustyo/releases/tag/1.0)
+## Ohjelman käynnistäminen
+```
+java -jar Asteroids.jar
+```
 
 ## Päävalikko
 Päävalikosta pystyy käynnistämään pelin painamalla P-näppäintä. Pelin ohjeita voi katsella painamalla G-näppäintä pohjassa. Samaan tapaan 20 korkeinta pelin tulosta saa näkyviin "Hall of Famessa" painamalla pohjassa H-näppäintä.
@@ -12,4 +17,4 @@ Pelin tavoitteena on väistellä aluksella asteroideja ja tuhota niitä aluksen 
 Alusta liikutetaan nuolinäppäimillä. Ylös-napista aluksen moottori aktivoituu, sivulle-napeista alusta pystyy kääntämään. Aluksen tykkiä käytetään välilyöntiä painamalla.
 
 ### Muut pelinäkymän kontrollit
-Painamalla R-näppäintä peli alkaa uudestaan alusta. Q-näppäimellä pääsee takaisin pävalikkoon. Pelin päätyttyä "Game over"-näkymässä pelaaja voi asettaa kolmimerkkisen tunnuksen nuolinäppäimiä käyttämällä. Kun tunnus on syötetty, Enter:iä painamalla pelin pistemäärä, päivämäärä ja tunnus tallentuvat.
+Painamalla R-näppäintä peli alkaa uudestaan alusta. Q-näppäimellä pääsee takaisin pävalikkoon. Pelin päätyttyä "Game over"-näkymässä pelaaja voi asettaa kolmimerkkisen tunnuksen nuolinäppäimiä käyttämällä. Kun tunnus on syötetty, Enter:iä painamalla pelin pistemäärä, päivämäärä ja tunnus tallentuvat. Tämän jälkeen painamalla R peli käynnistyy uudelleen, tai painamalla Q pääsee palaamaan päävalikkoon.
