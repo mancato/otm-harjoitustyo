@@ -1,11 +1,11 @@
-/**
-* Generoi asteroidit, pitää kirjaa niiden lukumäärästä. 
-*/
+
 package logic;
 
 import java.util.ArrayList;
 import java.util.Random;
-
+/**
+* Generoi asteroidit, pitää kirjaa niiden lukumäärästä. 
+*/
 public class AsteroidField extends ArrayList<Asteroid> { //FOR CONTAINING AND SPAWNING ASTEROIDS
 
     public int level, asteroidTimer;

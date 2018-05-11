@@ -1,11 +1,15 @@
-/**
- * Ammus jonka alus voi ampua
- */
+
 package logic;
 
 import javafx.scene.shape.Circle;
 import javafx.scene.paint.Color;
-
+/**
+ * Ammus, jonka alus voi ampua.
+ * @x0 Ammuksen x-koordinaatti.
+ * @y0 Ammuksen y-koordinaatti.
+ * @vX Ammuksen nopeus x-suunnassa.
+ * @vY Ammuksen nopeus y-suunnassa.
+ */
 public class Ammo extends Circle {
     
     public double vX;
@@ -24,8 +28,8 @@ public class Ammo extends Circle {
     }
 /**
  * Siirtää ammusta dx:n ja dy:n verran.
- * @param   dx Paikan muutoksen x-komponentti
- * @param   dy Paikan muutoksen y-komponentti  
+ * @param   dx Paikan muutoksen x-komponentti.
+ * @param   dy Paikan muutoksen y-komponentti. 
  */
     public void translate(double dx, double dy) { //MOVE BY AMOUNT DX,DY
         this.setCenterX(this.getCenterX() + dx);

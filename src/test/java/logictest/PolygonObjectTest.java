@@ -41,5 +41,26 @@ public class PolygonObjectTest {
         assertEquals(poly.getTranslateX(),1.0,0.001);
         assertEquals(poly.getTranslateY(),1.0,0.001);        
     }
+    @Test
+    public void testBounds3(){
+        poly.translate(1.0,481.0);
+        poly.checkBounds();
+        assertEquals(poly.getTranslateX(),1.0,0.001);
+        assertEquals(poly.getTranslateY(),1.0,0.001);        
+    }  
+    @Test
+    public void testBounds4(){
+        poly.translate(-1.0,1.0);
+        poly.checkBounds();
+        assertEquals(poly.getTranslateX(),639.0,0.001);
+        assertEquals(poly.getTranslateY(),1.0,0.001);        
+    }
+    @Test
+    public void testBounds5(){
+        poly.translate(1.0,-1.0);
+        poly.checkBounds();
+        assertEquals(poly.getTranslateX(),1.0,0.001);
+        assertEquals(poly.getTranslateY(),479.0,0.001);        
+    }     
 
 }

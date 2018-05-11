@@ -1,11 +1,11 @@
-/**
- * Pelaajan alus
- */
+
 package logic;
 
 import java.util.ArrayList;
 import javafx.scene.paint.Color;
-
+/**
+ * Pelaajan alus
+ */
 public class Ship extends PolygonObject {
 
     public int lives;

@@ -1,18 +1,18 @@
-/**
- * Emoluokka monikulmaisille objekteille, eli alukselle ja asteroideille.
- */
+
 package logic;
 
 import javafx.scene.shape.Polygon;
-
+/**
+ * Emoluokka monikulmaisille objekteille, eli alukselle ja asteroideille.
+ */
 public class PolygonObject extends Polygon { //THE BASE CLASS FOR A MOVABLE POLYGONAL OBJECT
     
     public double vX;
     public double vY;
 /**
  * Siirtää objektia dx, dy:n verran.
- * @param dx X-suuntainen siirtymä
- * @param dy Y-suuntainen siirtymä
+ * @param dx X-suuntainen siirtymä.
+ * @param dy Y-suuntainen siirtymä.
  */
     public void translate(double dx, double dy) { //MOVE BY AMOUNT DX,DY
         this.setTranslateX(this.getTranslateX() + dx);

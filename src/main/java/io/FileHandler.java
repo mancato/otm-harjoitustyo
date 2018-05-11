@@ -8,51 +8,66 @@ import java.io.FileWriter;
 import java.io.FileReader;
 import java.io.BufferedReader;
 import java.io.IOException;
-
+ /**
+ *  Tulosten tallennus ja lataus tiedostojen avulla. Kirjoittaa tulokset, pelaajien nimet ja päivämäärät.
+ *  @param fname Nimi tiedostolle johon tulokset tallennetaan.
+ */
 public class FileHandler {
 
-    File scores;
-    FileWriter w;
+    int maxScores; //MAX NUM. OF SCORES TO BE SAVED
+    File scores; //FILE FOR SAVING SCORES
+    FileWriter w; 
     BufferedReader r;
 
-    public FileHandler() {
-        
-        this.scores = new File("scores.txt");
+    public FileHandler(String fname) {
+
+    
+        maxScores = 15;        
+        this.scores = new File(fname);
         try {
             scores.createNewFile();
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
+    /**
+    * Kirjoittaa tuloksen tiedostoon.
+    * @param score Tulos.
+    * @param pname Pelaajan nimi.
+    */
     public void writeScore(int score, String pname) {
         try {
+            int n = 1;
             String line;
             boolean found = false;
             ArrayList<String> lines = new ArrayList<String>();
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd/MM/yyyy");
             LocalDateTime now = LocalDateTime.now();
-            if (scores.length() == 0) {
+            if (scores.length() == 0) {  //IF FILE IS EMPTY
                 this.w = new FileWriter(scores, true);
                 w.write(dtf.format(now) + "    " + pname + "    " + String.valueOf(score) + "\n");
                 w.close();
-            } else {
+            } else { //IF FILE IS NOT EMPTY
                 this.r = new BufferedReader(new FileReader(scores));
                 while ((line = r.readLine()) != null) {
-                    System.out.println("LINE: " + line);
-                    if (score > Integer.parseInt(line.split("    ")[2]) && !found) {
+                    n++; //KEEPING TRACK OF LINES
+                    if (score > Integer.parseInt(line.split("    ")[2]) && !found) { //IF POSITION OF NEW SCORE IS FOUND
                         lines.add(dtf.format(now) + "    " + pname + "    " + String.valueOf(score));
                         found = true;
                     }
+                    if (n > maxScores) { //IF SCORE IS OUT OF RANGE
+                        found = true;
+                        break;
+                    }
                     lines.add(line);
                 }
-                if (!found) {
+                if (!found) { //ADDING SCORE TO THE END OF FILE
                     lines.add(dtf.format(now) + "    " + pname + "    " + String.valueOf(score));
                 }
                 this.w = new FileWriter(scores, false);
                 w.write("");
                 this.w = new FileWriter(scores, true);            
-                for (String s: lines) {
+                for (String s: lines) { //REWRITE FILE
                     w.write(s + "\n");
                 }
                 w.close();
@@ -61,8 +76,11 @@ public class FileHandler {
             e.printStackTrace();
         }         
     }
-
-    public int readHighScore() {
+    /**
+    * Lataa korkeimman tuloksen
+    * @return Korkein pistemäärä.
+    */
+    public int readHighScore() { //READS THE HIGHEST SCORE
         int hs = 0;
         String line;
         String h;
@@ -77,13 +95,16 @@ public class FileHandler {
         }
         return hs;
     }
-
-    public ArrayList<String> getTopScores() {
+    /**
+    * Lataa korkeimmat tulokset.
+    * @return Lista korkeimmista tuloksista.
+    */
+    public ArrayList<String> getTopScores() { //GETS TOP 15 SCORES AS ARRAYLIST
         ArrayList<String> scoreList = new ArrayList<>();
         String s;
         try {
             this.r = new BufferedReader(new FileReader(scores));
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < maxScores; i++) {
                 if ((s = r.readLine()) == null) {
                     break;
                 } else {

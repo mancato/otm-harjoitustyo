@@ -1,13 +1,15 @@
-/**
- * Asteroidi, näitä ammutaan
- *  
- * 
- */
+
 package logic;
 
 import javafx.scene.paint.Color;
 import java.util.Random;
-
+    /**
+* Asteroidia kuvaava luokka.
+* @param n Asteroidin muodon virittävien pisteiden määrä.
+* @size Asteroidin koko.
+* @x0 Asteroidin x-koordinaatti.
+* @y0 Asteroidin y-koordinaatti.
+*/
 public class Asteroid extends PolygonObject {
     
     public double size;
@@ -26,8 +28,8 @@ public class Asteroid extends PolygonObject {
     }
     /**
  *  Luo asteroidin muodon
- *  @param n asteroidin muodon virittävien pisteiden lukumäärä
- * 
+ *  @param n Asteroidin muodon virittävien pisteiden lukumäärä.
+ *  @return Random-generoidut pisteet, joilla asteroidi muodostetaan.
  */
     Double[] initialize(int n) { //GENERATE RANDOM SURFACE FOR ASTEROID, n=AMOUNT OF VERTICES
         double rMin = size * 30.0;
