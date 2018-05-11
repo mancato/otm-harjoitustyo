@@ -14,4 +14,4 @@
 | 9.5.  | 3    | Refaktorointia
 | 10.5. | 5    | Refaktorointia
 | 11.5. | 4    | Lopullinen testaus, dokumentaation teko
-| YHT.  | 37   | - |
+| YHT.  | 49   | - |
