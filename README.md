@@ -1,7 +1,7 @@
 # Asteroids
-Asteroids, klassikopeli vuodelta 1979. Tavoitteena on ampua asteroideja avaruusaluksella. 
+Asteroids, klassikopeli vuodelta 1979. Tavoitteena on ampua asteroideja avaruusaluksella.
 
-Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo/releases/tag/asteroids)
+Release löytyy täältä: [Release](https://github.com/mancato/otm-harjoitustyo/releases/tag/v0.2)
 
 ## Dokumentaatio
 [Vaativuusmäärittely](https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/vaativuusmaarittely.md)
@@ -20,7 +20,7 @@ Testit toimivat normaalisti
 ```
 mvn test
 ```
-ja jacoco:report:
+ja jacoco:report (HUOM! raportissa saattaa lukea väärä rivikattavuus pakkauksen io kohdalla vaikkei sitä testata toistaiseksi ollenkaan):
 ```
 mvn jacoco:report
 ```
