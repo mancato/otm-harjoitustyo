@@ -1,5 +1,5 @@
 # Käyttöohje
-Lataa tiedosto Asteroids.jar
+Lataa tiedosto [Asteroids.jar](https://github.com/mancato/otm-harjoitustyo/releases/tag/1.0)
 ## Ohjelman käynnistäminen
 ```
 java -jar Asteroids.jar
