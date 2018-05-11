@@ -18,7 +18,16 @@ Ohjelmassa on kaksi päänäkymää, päävalikko sekä itse peli. Valikosta pys
 
 ## Sovelluslogiikka
 
-Kuvassa näkyy kuinka aluksella ampuminen tapahtuu kun välilyöntiä painetaan:
+Tässä on sekvenssikaaviot aluksen oleellisimmista toiminnoista. Aluksella kiihdyttäminen:
+
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20kiihdyttäminen.png" width="600">
+
+Aluksella kääntyminen:
+
+
+<img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20kääntyminen.png" width="600">
+
+Aluksella ampuminen: 
 
 <img src="https://github.com/mancato/otm-harjoitustyo/blob/master/dokumentaatio/kuvat/Aluksella%20ampuminen.png" width="600">
 
