@@ -25,7 +25,7 @@ Testit toimivat normaalisti
 ```
 mvn test
 ```
-ja jacoco:report (HUOM! raportissa saattaa lukea väärä rivikattavuus pakkauksen io kohdalla vaikkei sitä testata toistaiseksi ollenkaan):
+ja jacoco:report:
 ```
 mvn jacoco:report
 ```
