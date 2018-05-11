@@ -17,4 +17,4 @@ Pelin tavoitteena on väistellä aluksella asteroideja ja tuhota niitä aluksen 
 Alusta liikutetaan nuolinäppäimillä. Ylös-napista aluksen moottori aktivoituu, sivulle-napeista alusta pystyy kääntämään. Aluksen tykkiä käytetään välilyöntiä painamalla.
 
 ### Muut pelinäkymän kontrollit
-Painamalla R-näppäintä peli alkaa uudestaan alusta. Q-näppäimellä pääsee takaisin pävalikkoon. Pelin päätyttyä "Game over"-näkymässä pelaaja voi asettaa kolmimerkkisen tunnuksen nuolinäppäimiä käyttämällä. Kun tunnus on syötetty, Enter:iä painamalla pelin pistemäärä, päivämäärä ja tunnus tallentuvat.
+Painamalla R-näppäintä peli alkaa uudestaan alusta. Q-näppäimellä pääsee takaisin pävalikkoon. Pelin päätyttyä "Game over"-näkymässä pelaaja voi asettaa kolmimerkkisen tunnuksen nuolinäppäimiä käyttämällä. Kun tunnus on syötetty, Enter:iä painamalla pelin pistemäärä, päivämäärä ja tunnus tallentuvat. Tämän jälkeen painamalla R peli käynnistyy uudelleen, tai painamalla Q pääsee palaamaan päävalikkoon.
