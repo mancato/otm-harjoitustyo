@@ -1,5 +1,5 @@
 # Testausdokumentti
-Ohjelman luokkien testaus tapahtuu JUnit-testeillä, ui-pakkausta ei testata ollenkaan. Manuaalista testausta on tehty tavallisella käytöllä, kuten menussa seikkailulla ja itse pelin pelaamisella.
+Ohjelman luokkien testaus tapahtuu JUnit-testeillä, ui-pakkausta ei testata ollenkaan. Manuaalista testausta on tehty tavallisella käytöllä, kuten menussa seikkailulla ja itse pelin pelaamisella. Testailussa ei ilmennyt minkäänlaisia ongelmia, kaikki toimivat suunnitellusti.
 
 ## JUnit-testit
 logic-pakkaus: Koko logic-pakkaus on testattu, kaikki pakkauksen sisältämien olioiden metodit toimivat kuten pitääkin.
