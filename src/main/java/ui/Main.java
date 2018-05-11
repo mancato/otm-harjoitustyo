@@ -323,7 +323,7 @@ public class Main extends Application {
     }
     /** 
     *   Päivittää asteroidien koordinaatit.
-    * @collCheck Määrittää tarkistetaanko asteroidien ja muiden objektien väliset törmäykset, false valitaan "GAME OVER"-näkymässä.
+    * @param collCheck Määrittää tarkistetaanko asteroidien ja muiden objektien väliset törmäykset, false valitaan "GAME OVER"-näkymässä.
     */
     public void updateAsteroids(boolean collCheck) {
         for (int i = 0; i < asteroids.size(); i++) {

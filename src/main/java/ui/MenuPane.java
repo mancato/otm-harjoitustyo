@@ -6,11 +6,13 @@ import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 /**
 * Näkymä päävalikolle.
-* @param hiscore Päävalikossa näkyvä huipputulos.
 */
 public class MenuPane extends Pane {
     Text highScore;
-
+/**
+ * Konstruktori.
+ * @param hiscore Päävalikossa näkyvä huipputulos. 
+ */
     public MenuPane(int hiscore) { // TITLE MENU
         this.setStyle("-fx-background-color: black;");
         Text titleText = new Text(160.0, 100.0, "ASTEROIDS");

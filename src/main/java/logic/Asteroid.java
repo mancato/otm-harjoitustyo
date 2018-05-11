@@ -3,17 +3,21 @@ package logic;
 
 import javafx.scene.paint.Color;
 import java.util.Random;
-    /**
+/**
 * Asteroidia kuvaava luokka.
-* @param n Asteroidin muodon virittävien pisteiden määrä.
-* @size Asteroidin koko.
-* @x0 Asteroidin x-koordinaatti.
-* @y0 Asteroidin y-koordinaatti.
 */
 public class Asteroid extends PolygonObject {
     
     public double size;
     Random rnd;
+/**
+ * Konstruktori
+ * @param n Asteroidin muodon virittävien pisteiden määrä.
+ * @param size Asteroidin koko.
+ * @param x0 Asteroidin x-koordinaatti.
+ * @param y0 Asteroidin y-koordinaatti.
+ */    
+
     
     public Asteroid(int n, double size, double x0, double y0) {
         this.size = size;

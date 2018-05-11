@@ -10,7 +10,6 @@ import java.io.BufferedReader;
 import java.io.IOException;
  /**
  *  Tulosten tallennus ja lataus tiedostojen avulla. Kirjoittaa tulokset, pelaajien nimet ja päivämäärät.
- *  @param fname Nimi tiedostolle johon tulokset tallennetaan.
  */
 public class FileHandler {
 
@@ -18,7 +17,9 @@ public class FileHandler {
     File scores; //FILE FOR SAVING SCORES
     FileWriter w; 
     BufferedReader r;
-
+/**
+ * @param fname Nimi tiedostolle johon tulokset tallennetaan.
+ */
     public FileHandler(String fname) {
 
     

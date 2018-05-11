@@ -5,17 +5,19 @@ import javafx.scene.shape.Circle;
 import javafx.scene.paint.Color;
 /**
  * Ammus, jonka alus voi ampua.
- * @x0 Ammuksen x-koordinaatti.
- * @y0 Ammuksen y-koordinaatti.
- * @vX Ammuksen nopeus x-suunnassa.
- * @vY Ammuksen nopeus y-suunnassa.
  */
 public class Ammo extends Circle {
     
     public double vX;
     public double vY;
     public int range; //DETERMINES HOW FAR AMMO CAN TRAVEL
-
+/**
+ * Konstruktori.
+ * @param x0 Ammuksen x-koordinaatti.
+ * @param y0 Ammuksen y-koordinaatti.
+ * @param vX Ammuksen nopeus x-suunnassa.
+ * @param vY Ammuksen nopeus y-suunnassa.
+ */
     public Ammo(double x0, double y0, double vX, double vY) {
         this.vX = vX;
         this.vY = vY;
