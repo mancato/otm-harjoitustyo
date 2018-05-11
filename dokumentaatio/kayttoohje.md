@@ -1,5 +1,5 @@
 # Käyttöohje
-Lataa tiedosto ---
+Lataa tiedosto Asteroids.jar
 ## Ohjelman käynnistäminen
 ```
 java -jar Asteroids.jar
