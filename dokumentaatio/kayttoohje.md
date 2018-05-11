@@ -1,4 +1,9 @@
 # Käyttöohje
+Lataa tiedosto ---
+## Ohjelman käynnistäminen
+```
+java -jar Asteroids.jar
+```
 
 ## Päävalikko
 Päävalikosta pystyy käynnistämään pelin painamalla P-näppäintä. Pelin ohjeita voi katsella painamalla G-näppäintä pohjassa. Samaan tapaan 20 korkeinta pelin tulosta saa näkyviin "Hall of Famessa" painamalla pohjassa H-näppäintä.
